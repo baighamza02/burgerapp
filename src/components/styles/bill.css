@@ -1,0 +1,45 @@
+.bill{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bill-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .bill-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .total-label {
+    font-weight: bold;
+  }
+  
+  .total-amount {
+    font-weight: bold;
+  }
+
+  .bill-total{
+    border-top: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: 2px;
+
+  }
+  

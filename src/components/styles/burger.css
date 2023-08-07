@@ -1,0 +1,115 @@
+.burger {
+    width: 300px;
+    max-height: 500px;
+    height: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    justify-content: center;
+
+}
+.burger-top-normal {
+    width: 100%;
+    min-height: 50px;
+    background-color: #F7D794;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    justify-content: center;
+
+}
+.burger-bottom-normal {
+    width: 100%;
+    min-height: 30px;
+    background-color: #F7D794;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.patty-normal {
+    width: 80%;
+    min-height: 30px;
+    background-color: #E17055;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+.salad-normal {
+    width: 90%;
+    min-height: 30px;
+    background-color: #3cf136;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+.cheese-normal {
+    width: 90%;
+    min-height: 25px;
+    background-color: #fde400;
+    margin: 2px;
+    border-radius: 5px;
+
+    
+}
+
+.patty-hd {
+    width: 80%;
+    min-height: 30px;
+    background-color: #E17055;
+    margin: 2px;
+    border-radius: 5px;
+    background-image: url('https://us.123rf.com/450wm/nbvf/nbvf1701/nbvf170101196/70841564-texture-of-a-burger-patty.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.salad-hd {
+    width: 90%;
+    min-height: 30px;
+    background-color: #3cf136;
+    margin: 2px;
+    border-radius: 5px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/274/580/large_2x/close-up-of-fresh-green-lettuce-salad-leaves-salad-texture-background-photo.jpg ');
+    background-size: cover;
+    background-position: center;
+}
+.cheese-hd {
+    width: 90%;
+    min-height: 25px;
+    background-color: #fde400;
+    margin: 2px;
+    border-radius: 5px;
+    background-image: url('https://w0.peakpx.com/wallpaper/772/905/HD-wallpaper-cheese-texture-close-up-food-textures-slices-of-cheese-macro-creative-cheese.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.burger-top-hd {
+    width: 100%;
+    min-height: 50px;
+    background-color: #F7D794;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    justify-content: center;
+    background-image: url('https://media.istockphoto.com/id/105779692/photo/tasty-hamburger-closeup.jpg?s=612x612&w=0&k=20&c=J4j5YTrQ8TXfUW6cVVjBb5YvR_XNy3rxMZy9oypGFCo=');
+    background-size: cover;
+    background-position: center;
+}
+.burger-bottom-hd {
+    width: 100%;
+    min-height: 30px;
+    background-color: #F7D794;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url('https://media.istockphoto.com/id/105779692/photo/tasty-hamburger-closeup.jpg?s=612x612&w=0&k=20&c=J4j5YTrQ8TXfUW6cVVjBb5YvR_XNy3rxMZy9oypGFCo=');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.controls {
+    margin-top: 20px;
+}
